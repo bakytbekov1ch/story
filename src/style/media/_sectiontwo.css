@@ -1,0 +1,41 @@
+@media (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 426px) {
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  .sectiontwo__blcok h2 {
+    height: 25px !important;
+    font-size: 15px !important;
+  }
+
+  .sectiontwo__blcok p {
+    font-size: 12px !important;
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 376px) {
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .sectiontwo__blcok h2 {
+    height: 20px !important;
+    font-size: 13px !important;
+  }
+
+  .sectiontwo__blcok p {
+    font-size: 10px !important;
+    line-height: 16px !important;
+    width: 250px !important;
+  }
+}

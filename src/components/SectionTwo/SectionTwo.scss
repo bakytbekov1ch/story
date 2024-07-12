@@ -1,0 +1,52 @@
+.sectiontwo {
+  .sectiontwo__mx {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .sectiontwo__content {
+      width: 400px;
+      border-radius: 10px;
+      display: flex;
+      align-items: start;
+      gap: 10px;
+      padding: 10px;
+
+      .sectiontwo__h1 {
+        width: 40px;
+        height: 40px;
+        background-color: aqua;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+          font-size: 25px;
+          font-family: "Roboto";
+          font-weight: 600;
+        }
+      }
+
+      .sectiontwo__blcok {
+        h2 {
+          height: 30px;
+          color: black;
+          font-size: 18px;
+          font-weight: 400;
+          font-family: "Roboto";
+        }
+
+        p {
+          width: 330px;
+          color: black;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          font-family: "Roboto";
+        }
+      }
+    }
+  }
+}
